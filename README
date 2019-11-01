@@ -1,0 +1,12 @@
+1.asn1c compile
+  tar -xzvf *.tar.gz
+  ./configure
+  make
+  make install
+2.doc2asn.cpp
+  g++ doc2asn.cpp -o doc2asn
+  windows resave 38331.doc to 38331.txt
+  doc2asn 38311.txt
+3. asn1c to generate IE C file
+   asn1c 38331.asn
+   asn1c -h
